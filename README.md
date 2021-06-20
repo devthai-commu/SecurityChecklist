@@ -16,6 +16,7 @@ Kube Security
      [ ] 13. Kube cluster ควรอยู่ใน Private network เท่านั้น ให้ set ผ่าน LB เท่านั้น
 
 Api Security
+
     [ ] 1. ทุก Api ควรมี AccessKeys
     [ ] 2. Api ควร enable oauth2
     [ ] 3. ไม่ควรนำข้อมูล เกี่ยวกับ User Profile ส่วนตัวไว้ใน JWT
