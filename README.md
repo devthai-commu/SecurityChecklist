@@ -1,12 +1,14 @@
 Security Checklist
+
 Kube Security
+
   - [ ] 1. อย่า Run Docker โดย root user
   - [ ] 2. ควรจะใช้ package docker file ที่เราจะใช้เท่านั้น
   - [ ] 3. Node ควรจะ allow port สำหรับที่จะใช้เท่านั้น
   - [ ] 4. ควรกำหนด Network policy ให้ Pod สามารถคุยกันได้เฉพาะ ที่จะใช้เท่านั้น
-  - [ ]5. set policy agent pod ให้ Deployment deploy only namespace ที่ pod สามารถ deploy ได้เท่านั้น
+  - [ ] 5. set policy agent pod ให้ Deployment deploy only namespace ที่ pod สามารถ deploy ได้เท่านั้น
   - [ ] 6. service account pod ควร สิทธิ์ เฉพาะที่ pod นั้นใช้เท่านั้น
-  - [ ]7. Image ควรใช้ Private Registry
+  - [ ] 7. Image ควรใช้ Private Registry
   - [ ] 8. Pod ตัวไหน ที่ไม่ได้ใช้ API ของ Cloud ไม่ควร access API ของ Cloud ได้ (Metadata consealing)
   - [ ] 9. ห้ามเก็บ Password ที่อยู่ใน App ควรอยู่ใน Secret manager
   - [ ] 10. Scan image ที่เรา Build เป็นประจำ
