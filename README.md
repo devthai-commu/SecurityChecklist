@@ -1,5 +1,6 @@
 Security Checklist
 Kube Security
+     
      [ ] 1. อย่า Run Docker โดย root user
      [ ] 2. ควรจะใช้ package docker file ที่เราจะใช้เท่านั้น
      [ ] 3. Node ควรจะ allow port สำหรับที่จะใช้เท่านั้น
